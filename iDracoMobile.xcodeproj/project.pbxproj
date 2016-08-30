@@ -11,6 +11,7 @@
 		3CB4071EDADCBAD3F2AEE0EB /* Pods_iDracoMobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B01BE914E595529DB04D24 /* Pods_iDracoMobileUITests.framework */; };
 		4D05A9D9520130485954671F /* Pods_iDracoMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFBFB526861B0E5FB5072900 /* Pods_iDracoMobile.framework */; };
 		C038DA1A1D73CE88000D06DA /* POSSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C038DA191D73CE88000D06DA /* POSSplitView.swift */; };
+		C05343711D7514A100C1E61D /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05343701D7514A100C1E61D /* CustomNavigationController.swift */; };
 		C065EF711D6A871C00E4E832 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C065EF701D6A871C00E4E832 /* AppDelegate.swift */; };
 		C065EF731D6A871C00E4E832 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C065EF721D6A871C00E4E832 /* ViewController.swift */; };
 		C065EF761D6A871C00E4E832 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C065EF741D6A871C00E4E832 /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		56D29648B378045C1755813A /* Pods-iDracoMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDracoMobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-iDracoMobile/Pods-iDracoMobile.release.xcconfig"; sourceTree = "<group>"; };
 		9750D7B85BA06B0E03366CD3 /* Pods-iDracoMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDracoMobileTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iDracoMobileTests/Pods-iDracoMobileTests.release.xcconfig"; sourceTree = "<group>"; };
 		C038DA191D73CE88000D06DA /* POSSplitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POSSplitView.swift; sourceTree = "<group>"; };
+		C05343701D7514A100C1E61D /* CustomNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
 		C065EF6D1D6A871C00E4E832 /* iDracoMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDracoMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C065EF701D6A871C00E4E832 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C065EF721D6A871C00E4E832 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 			children = (
 				C065EF701D6A871C00E4E832 /* AppDelegate.swift */,
 				C065EF721D6A871C00E4E832 /* ViewController.swift */,
+				C05343701D7514A100C1E61D /* CustomNavigationController.swift */,
 				C065EF741D6A871C00E4E832 /* Main.storyboard */,
 				C038DA191D73CE88000D06DA /* POSSplitView.swift */,
 				C065EFA11D6AE06900E4E832 /* MainTabBarController.swift */,
@@ -439,6 +442,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C05343711D7514A100C1E61D /* CustomNavigationController.swift in Sources */,
 				C065EF791D6A871C00E4E832 /* iDracoMobile.xcdatamodeld in Sources */,
 				C038DA1A1D73CE88000D06DA /* POSSplitView.swift in Sources */,
 				C065EF731D6A871C00E4E832 /* ViewController.swift in Sources */,
